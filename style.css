@@ -1,4 +1,19 @@
 body{
     background-color:#A2B5CD;
-    font-family: cursive;
+    overflow-y:scroll !important;
+}
+
+#middle-box {
+    position: fixed !important;
+    height: 80% !important;
+    top: 15%;
+    left: 10%;
+    right: 10%;
+    overflow-y:scroll !important;
+}
+
+#injected {
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }

@@ -1,15 +1,23 @@
 <!doctype html>
-<html>
+<html ng-app = "myApp">
     <head>
         <link rel =  "stylesheet" type="text/css" href= "style.css">
-        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <link rel="stylesheet" type="text/css" href="`semantic/dist/semantic.min.css">
         <script src="semantic/dist/semantic.min.js"></script>
+        <script src = "app.js"></script>
         <script>
             goto = function(url) {
                     window.location.href= url;
                                 };
         </script>
     </head>
-    <body></body>
+    <body>
+        <div class="ui secondary menu" id="small">
+                <img src="Desktop/doggo" id="logo" alt="logo" onclick="goto('/')"/></div>
+        <div class="ui secondary menu" id="small">
+        <div ng-view id="injected"></div>
+        </div>
+        </div>
+    </body>
 </html>
 
