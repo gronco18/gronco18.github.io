@@ -1,10 +1,12 @@
 <!doctype html>
 <html ng-app = "myApp">
     <head>
-        <link rel =  "stylesheet" type="text/css" href= "style.css">
-        <link rel="stylesheet" type="text/css" href="`semantic/dist/semantic.min.css">
-        <script src="semantic/dist/semantic.min.js"></script>
-        <script src = "app.js"></script>
+        <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+        <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+        <script src="app.js"></script>
         <script>
             goto = function(url) {
                     window.location.href= url;
@@ -12,12 +14,7 @@
         </script>
     </head>
     <body>
-        <div class="ui secondary menu" id="small">
-                <img src="Desktop/doggo" id="logo" alt="logo" onclick="goto('/')"/></div>
-        <div class="ui secondary menu" id="small">
-        <div ng-view id="injected"></div>
-        </div>
-        </div>
+    <div ng-view id="injected"></div>
     </body>
 </html>
 

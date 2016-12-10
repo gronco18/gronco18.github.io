@@ -1,12 +1,11 @@
 body{
     background-color:#A2B5CD;
-    overflow-y:scroll !important;
 }
 
 #middle-box {
     position: fixed !important;
     height: 80% !important;
-    top: 15%;
+    top: 20%;
     left: 10%;
     right: 10%;
     overflow-y:scroll !important;
@@ -15,5 +14,10 @@ body{
 #injected {
     position: fixed;
     height: 100%;
+    width: 100%;
+}
+
+#image {
+    position: fixed;
     width: 100%;
 }
