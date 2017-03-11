@@ -7,8 +7,6 @@ angular.module('myApp', ['ngRoute'])
                           templateUrl: "pages/About.html"
                       }).when("/PersonalProjects", {
                           templateUrl: "pages/PersonalProjects.html",
-                      }).when("/Blog", {
-                          templateUrl: "pages/Blog.html",
                       }).when("/Contact", {
                           templateUrl: "pages/Contact.html"
                       })

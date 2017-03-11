@@ -4,6 +4,7 @@ body{
 
 #middle-box {
     position: fixed !important;
+    border-radius: 10px
     height: 80% !important;
     top: 20%;
     left: 10%;
@@ -20,4 +21,12 @@ body{
 #image {
     position: fixed;
     width: 100%;
+}
+
+#scrolling {
+    overflow:scroll !important;
+}
+
+h1 {
+padding: 10px 10px 10px 10px;
 }

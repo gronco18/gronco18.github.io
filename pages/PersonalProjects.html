@@ -1,0 +1,56 @@
+<div class = "ui fluid container">
+    <div class = "ui centered grid container">
+    <div class = "row">
+    <div id = "menu" class = "ui three item fixed menu">
+        <div class = "item" onclick ="goto('#/About')"><h3>About Gabriella</h3></div>
+        <div class="item" onclick = "goto('#/PersonalProjects')"><h3>Personal Projects</h3></div>
+        <div class ="item" onclick = "goto('#/Contact')"><h3>Contact</h3></div>
+    </div>
+    </div>
+    </div>
+    <img class="ui image" id = "image" src="pages/img4.jpg">
+    <div class = "ui container" id = "middle-box">
+    <div class = "ui raised very padded text container segment" id = "scrolling">
+	<h1 class = "ui large centered header"> Gabriella's Personal Projects</h1>
+	    <div class="ui list">
+		<div class="item">
+		   <h1 class = "ui medium inverted header">PolyHack Project<a class="header" href = "http://www.knowyourrights.me">knowyourrights.me</a></h1>
+    			<div class="description"> 
+      			    During the Tufts hackathon, Polyhack, my team and I
+			    created a website that acts as a comprehensive resource
+		            for survivors of sexual misconduct. We ended up being finalists,
+			    but what felt most like an accomplishment was making something that
+			    was actually doing good. Find more about it <a href = "http://2016.polyhack.tufts.io/#Winners">here</a>.
+			</div>
+		   </div>
+  		<div class="item">
+		   <h1 class = "ui medium inverted header">Jumbocode Projects: Web Dev & Data Vis</h1>
+    			<div class="description">
+      			    In Jumbocode, we code applications for non-profit organizations. 
+			    During the past two semesters, I worked with teams on a website for
+			    Save the Children which allowed sponsors of children around the world
+			    to more easily (and thus more often) interact with the children they
+			    sponsored. <br> This semester, my team and I are working on data 
+			    visualizations for herpetological data for the NYHerpAtlas and UpstreamTech.
+			    Both of these projects are super cool, but are on private github repos. 
+			    You can check <a href = "https://www.facebook.com/JumboCode/">Jumbocode</a> out on Facebook, though.
+    			</div>
+  		</div>
+	    </div>
+	<h1 class = "ui large centered header"> Other Notable Projects</h1>
+	    <div class="ui list">
+		<div class="item">
+		   <h1 class = "ui medium inverted header">Gerp: Writing Grep from Scratch</h1>
+			<div class = "description">
+			    I wrote a program in C++ that emulates the command Grep. It takes a number of 
+			    text files on the command line as arguments and prompts the user for a word to 
+			    search for in these files. I optimized the program so that it used as little 
+			    memory as possible in its search by reading in and searching one file at a time 
+			    while continuously outputting positive results that it finds. Further, by using
+			    a hash table with chaining to store the data in the files, I ensured O(1) time
+			    complexity.<br> 
+			</div>
+		</div>
+	</div>
+    </div>
+    </div>
