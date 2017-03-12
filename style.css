@@ -1,5 +1,9 @@
 body{
     background-color:#A2B5CD;
+    background-image: url("pages/img4.jpg");
+    background-size: cover;
+    background-repeat: repeat;
+    overflow-y:scroll !important;
 }
 
 #middle-box {
@@ -23,8 +27,9 @@ body{
     width: 100%;
 }
 
-#scrolling {
-    overflow:scroll !important;
+ui raised very padded text container segment {
+    height: 100%;
+    overflow-y:scroll !important;
 }
 
 h1 {
