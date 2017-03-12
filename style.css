@@ -3,7 +3,6 @@ body{
     background-image: url("pages/img4.jpg");
     background-size: cover;
     background-repeat: repeat;
-    overflow-y:scroll !important;
 }
 
 #middle-box {
