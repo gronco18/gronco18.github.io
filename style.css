@@ -12,13 +12,14 @@ body{
     top: 20%;
     left: 10%;
     right: 10%;
-    overflow-y:scroll !important;
+    overflow:scroll !important;
 }
 
 #injected {
     position: fixed;
     height: 100%;
     width: 100%;
+    overflow:scroll !important;
 }
 
 #image {
@@ -28,7 +29,7 @@ body{
 
 ui raised very padded text container segment {
     height: 100%;
-    overflow-y:scroll !important;
+    overflow:scroll !important;
 }
 
 h1 {
